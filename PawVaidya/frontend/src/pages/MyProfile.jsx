@@ -8,7 +8,7 @@ import { PawPrint, User, MapPin, Phone, Mail, Calendar, Edit, Save, Upload, Clip
 import AnimalHealthChatbot from "../components/AnimalHealthChatbot";
 
 const MyProfile = () => {
-  const apiKey = import.meta.env.VITE_API_KEY || "AIzaSyCQuejQ2bIvTYqtNXsXpMjzWAw9zfYpeKo";
+  const apiKey = import.meta.env.VITE_API_KEY || "";
   const modelName = import.meta.env.VITE_MODEL_NAME || "gemini-1.5-flash";
   const prompt = import.meta.env.VITE_PROMPT || "Daily Tips for Pets and Pet Owners in a helpful and positive way. Provide one line of advice.";
 
